@@ -1,13 +1,14 @@
 # Progression envisageable :
 
 ## Introduction (en attendant la tablette ?)
-- une petite histoire de l'informatique ([vidéo complète](https://youtu.be/16udHcMYRFA)
 
-https://www.inria.fr/fr/elements-dhistoire-de-linformatique
+- une petite histoire de l'informatique :
 
-[La playlist comprenant 5 vidéos](https://www.youtube.com/playlist?list=PLWvGMqXvyJAMj8f57Hnk3U7oZP8Gi7OyR)
+    - [vidéo complète](https://youtu.be/16udHcMYRFA)
+    - https://www.inria.fr/fr/elements-dhistoire-de-linformatique
+    - [La playlist comprenant 5 vidéos](https://www.youtube.com/playlist?list=PLWvGMqXvyJAMj8f57Hnk3U7oZP8Gi7OyR)
 
-- Relever des mots clés (et rechercher leur définition en petits groupes ?) pour restitution globale ;
+    - Relever des mots clés (et rechercher leur définition en petits groupes ?) pour restitution globale ;
 
 
 ## Le Web :
