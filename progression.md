@@ -10,17 +10,6 @@
 
     - Relever des mots clés (et rechercher leur définition en petits groupes ?) pour restitution globale ;
 
-- Notions à étudier (dans le désorde..): 
-
-    - URL (pour les pages web ; URL relatif, URL absolu)
-    - Hameçonnage
-    - Les cookies 
-    - La RGPD
-    - Les clients / Serveurs
-    - Le protocole HTTP
-    - Le web Statique / Dynamique
-    - Moteur de recherche - Le PageRank de Google (pré-requis : avoir programmer un peu de python)
-
 
 ## Le Web :
 
@@ -40,7 +29,20 @@
 - Ou de [Theme0_Bases_de_Python](https://glassus.github.io/snt/Theme0_Bases_de_Python/environnement/);
 - Ou s'appuyer sur [FranceIOI-Cours et Problèmes](http://www.france-ioi.org/algo/chapters.php) ;    
 - Il y a aussi [futurecoder](https://futurecoder.io/)
-- 
+
+
+- Notions à étudier (dans le désorde..): 
+
+    - URL (pour les pages web ; URL relatif, URL absolu)
+    - Hameçonnage
+    - Les cookies 
+    - La RGPD
+    - Les clients / Serveurs
+    - Le protocole HTTP
+    - Le web Statique / Dynamique
+    - Moteur de recherche - Le PageRank de Google (pré-requis : avoir programmer un peu de python)
+
+ 
 ## Réseaux sociaux ?
 ## Internet ?
 ## Données structurées ?
