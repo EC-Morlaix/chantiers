@@ -15,7 +15,7 @@
     - URL (pour les pages web ; URL relatif, URL absolu)
     - Hameçonnage
     - Les cookies 
-    - Le RGPD
+    - La RGPD
     - Les clients / Serveurs
     - Le protocole HTTP
     - Le web Statique / Dynamique
