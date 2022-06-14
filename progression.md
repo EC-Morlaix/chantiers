@@ -22,14 +22,6 @@
 - Publication en ligne avec GitHub et GitPod ? Glitch ? Autres ? ;
 - Découverte du Markdown et plus si affinités (LaTex, emoji, Graphviz, )...
 
-## Programmation en Python : les bases => à faire en transversale + sur les trois temps d'AP laissés libre ?
-- Pour évoluer de blocs vers du script https://app.edublocks.org/guides;
-- Faire [Pyrates](https://py-rates.fr/) ;     
-- Faire une version simplifiée de [Découverte de Python pour l'algorithmique en SNT](https://ens-fr.gitlab.io/algo0/) ;
-- Ou de [Theme0_Bases_de_Python](https://glassus.github.io/snt/Theme0_Bases_de_Python/environnement/);
-- Ou s'appuyer sur [FranceIOI-Cours et Problèmes](http://www.france-ioi.org/algo/chapters.php) ;    
-- Il y a aussi [futurecoder](https://futurecoder.io/)
-
 
 - Notions à étudier (dans le désorde..): 
 
@@ -42,6 +34,13 @@
     - Le web Statique / Dynamique
     - Moteur de recherche - Le PageRank de Google (pré-requis : avoir programmer un peu de python)
 
+## Programmation en Python : les bases => à faire en transversale + sur les trois temps d'AP laissés libre ?
+- Pour évoluer de blocs vers du script https://app.edublocks.org/guides;
+- Faire [Pyrates](https://py-rates.fr/) ;     
+- Faire une version simplifiée de [Découverte de Python pour l'algorithmique en SNT](https://ens-fr.gitlab.io/algo0/) ;
+- Ou de [Theme0_Bases_de_Python](https://glassus.github.io/snt/Theme0_Bases_de_Python/environnement/);
+- Ou s'appuyer sur [FranceIOI-Cours et Problèmes](http://www.france-ioi.org/algo/chapters.php) ;    
+- Il y a aussi [futurecoder](https://futurecoder.io/)
  
 ## Réseaux sociaux ?
 ## Internet ?
