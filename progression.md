@@ -40,7 +40,7 @@
 - Faire une version simplifiée de [Découverte de Python pour l'algorithmique en SNT](https://ens-fr.gitlab.io/algo0/) ;
 - Ou de [Theme0_Bases_de_Python](https://glassus.github.io/snt/Theme0_Bases_de_Python/environnement/);
 - Ou s'appuyer sur [FranceIOI-Cours et Problèmes](http://www.france-ioi.org/algo/chapters.php) ;    
-- Il y a aussi [futurecoder](https://futurecoder.io/)
+- Il y a aussi [futurecoder](https://futurecoder.io/) ou [version française avec moins de tracking](https://futurecoder-fr.web.app/course/#IntroducingTheShell) 
  
 ## Réseaux sociaux ?
 ## Internet ?
