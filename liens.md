@@ -1,5 +1,10 @@
 
+L. PATERNAULT
 
+https://snt.ababsurdo.fr/prof/
+
+D. NUNEZ 
+http://sme.lycee.ecmorlaix.fr/DNG/2021/2GT/SNT.html
 
 Par Gilles LASSUS :
 
