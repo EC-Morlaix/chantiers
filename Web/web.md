@@ -58,7 +58,7 @@ Afin assurer une continuité de service, dans les sociétés, plusieurs serveurs
 
 1. Quelle est la signification du sigle RGPD ?
 2. Lister quelques exemples d'utilisation.
-3. Quelles sont les conséquances sur internet ?
+3. Quelles sont les conséquences sur internet ?
 
 
 ### Le protocole HTTP 
