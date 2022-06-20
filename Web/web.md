@@ -36,7 +36,7 @@ https://dai.ly/x16lt53
 
 ### Les clients / serveurs 
 
-deux ordinateurs en réseau peuvent s'échanger des données. Dans la plupart des cas ces échanges ne sont pas "symétriques" : en effet un ordinateur A va souvent se contenter de demander des ressources (fichiers contenant du texte, photos, vidéos, sons...) à un ordinateur B. L'ordinateur B va lui se contenter de fournir des ressources à tous les ordinateurs qui lui en feront la demande. On dira alors que l'ordinateur A (celui qui demande des ressources) est un client alors que l'ordinateur B (celui qui fournit les ressources) sera qualifié de serveur. <br>
+Deux ordinateurs en réseau peuvent s'échanger des données. Dans la plupart des cas ces échanges ne sont pas "symétriques" : en effet un ordinateur A va souvent se contenter de demander des ressources (fichiers contenant du texte, photos, vidéos, sons...) à un ordinateur B. L'ordinateur B va lui se contenter de fournir des ressources à tous les ordinateurs qui lui en feront la demande. On dira alors que l'ordinateur A (celui qui demande des ressources) est un client alors que l'ordinateur B (celui qui fournit les ressources) sera qualifié de serveur. <br>
 
 Sur internet, ce modèle client/serveur domine assez largement, même s'il existe des cas où un ordinateur pourra jouer tour à tour le rôle de client et le rôle de serveur (exemple le "peer to peer", voir le module "Internet"), très souvent, des ordinateurs (les clients) passeront leur temps à demander des ressources à d'autres ordinateurs (les serveurs) . Par exemple, comme expliqué dans l'exemple ci-dessus on retrouve cet échange client/serveur à chaque fois que l'on visite une page web. Il y a de fortes chances pour que votre ordinateur personnel joue quasi exclusivement le rôle de client (sauf si vous êtes un adepte du "peer to peer").<br>
 
@@ -47,5 +47,20 @@ Afin assurer une continuité de service, dans les sociétés, plusieurs serveurs
 
 ![Serveurs](./Images/baie-serveur.jpg)<br>
 
+### Web Statique / web dynamique
+
+1. Donner un exemple de page web statique
+2. Donne un exemple de page web dynamique
+3. Quelle est l'utilité d'un web dynamique par rapport au statique ?
+4. Quel langage permet de rendre la page web dynamique ? 
+
+### RGPD
+
+1. Quelle est la signification du sigle RGPD ?
+2. Lister quelques exemples d'utilisation.
+3. Quelles sont les conséquances sur internet ?
+
+
+### Le protocole HTTP 
 
 
