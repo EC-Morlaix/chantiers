@@ -165,7 +165,7 @@ Plus formellement, le déplacement de l'utilisateur est une marche aléatoire su
 ![URL](./Images/web-pagerank.png)
 
 1. créer un programme python simulant un lancé de dé à 6 faces. 
-2. Partant de la page A, déplacer vous dans le graphe en suivant le résultat du dé puis noter sur quelle page vous arrivez. 
+2. Partant de la page A, déplacez-vous dans le graphe en suivant le résultat du dé puis notez sur quelle page vous arrivez. 
 3. Continuer cette marche jusqu'au signal de l'enseignant .
 4. Compléter le tableau pagerank, donnant le nombre de visites sur chaque page.
 
