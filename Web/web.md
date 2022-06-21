@@ -84,7 +84,9 @@ Voici une version simplifiée de la composition d'une requête HTTP (client vers
 Certaines de ces lignes sont optionnelles.
 
 Voici un exemple de requête HTTP :
+
 ![Serveurs](./Images/web-requete-serveur.png)<br>
+
 Nous avons ici plusieurs informations :
 - GET est la méthode employée (voir ci-dessous)
 - /mondossier/monFichier.html correspond l'URL de la ressource demandée
