@@ -1,5 +1,10 @@
 # Thème 1 : Le web 
 
+## La Hotline  
+
+https://youtu.be/GqD6AiaRo3U
+
+
 ## Le langage Web : Le HTML
 
 1. Donner la signification de HTML
