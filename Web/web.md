@@ -67,4 +67,30 @@ Afin assurer une continuité de service, dans les sociétés, plusieurs serveurs
 ### Les arnaques sur Internet
 
 
+### PageRank
+
+Le PageRank est l'algorithme d'analyse des liens concourant au système de classement des pages Web utilisé par le moteur de recherche Google. Il mesure quantitativement la popularité d'une page web. Le PageRank n'est qu'un indicateur parmi d'autres dans l'algorithme qui permet de classer les pages du Web dans les résultats de recherche de Google. Ce système a été inventé par Larry Page, cofondateur de Google. Ce mot est une marque déposée.<br>
+
+Le principe de base est d'attribuer à chaque page une valeur (ou score) proportionnelle au nombre de fois que passerait par cette page un utilisateur parcourant le graphe du Web en cliquant aléatoirement, sur un des liens apparaissant sur chaque page. Ainsi, une page a un PageRank d'autant plus important qu'est grande la somme des PageRanks des pages qui pointent vers elle (elle comprise, s'il y a des liens internes). Le PageRank est une mesure de centralité sur le réseau du web.<br>
+
+Plus formellement, le déplacement de l'utilisateur est une marche aléatoire sur le graphe du Web, c'est-à-dire le graphe orienté dont les sommets représentent les pages du Web et les arcs les hyperliens. L'algorithme suppose que l'utilisateur choisisse chaque lien indépendamment des pages précédemment visitées (le réalisme d'une telle hypothèse est discutable).<br>
+
+#### Activité en groupe
+
+![URL](./Images/web-pagerank.png)
+
+1. créer un programme python simulant un lancé de dé à 6 faces. 
+2. Partant de la page A, déplacer vous dans le graphe en suivant le résultat du dé puis noter sur quelle page vous arrivez. 
+3. Continuer cette marche jusqu'au signal de l'enseignant .
+4. Compléter le tableau pagerank, donnant le nombre de visites sur chaque page.
+
+#### Analyse
+1. Compter, pour chaque page, le nombre de liens qui proviennent d'autres pages. 
+2. "Plus une page a de liens qui viennent vers elle, plus le PageRank est élevé". En comaparant A, G et H, cette affirmation est-elle correcte. Même question pour A et D. Expliquer cela.  
+3. Vous êtes l'auteur de la page H et vous souhaitez augmenter votre PageRank. Par quels moyens artificiels pouvez-vous augmenter ce score ? (vous aurez le droit d'ajouter des liens ou de créer de nouvelles pages).
+
+
+
+
+
 
