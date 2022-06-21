@@ -68,6 +68,78 @@ Afin assurer une continuité de service, dans les sociétés, plusieurs serveurs
 
 ### Le protocole HTTP 
 
+Revenons sur l'adresse qui s'affiche dans la barre d'adresse d'un navigateur web et plus précisément sur le début de cette adresse c'est-à-dire le "http"
+Selon les cas cette adresse commencera par http ou https (nous verrons ce deuxième cas à la fin de cette activité).
+Le protocole (un protocole est ensemble de règles qui permettent à 2 ordinateurs de communiquer ensemble) HTTP (HyperText Transfert Protocol) va permettre au client d'effectuer des requêtes à destination d'un serveur web. En retour, le serveur web va envoyer une réponse.
+
+Voici une version simplifiée de la composition d'une requête HTTP (client vers serveur) :
+
+- La méthode employée pour effectuer la requête
+- L'URL de la ressource
+- La version du protocole utilisé par le client (souvent HTTP 1.1)
+- Le navigateur employé (Firefox, Chrome) et sa version
+- Le type du document demandé (par exemple HTML)
+...
+
+Certaines de ces lignes sont optionnelles.
+
+Voici un exemple de requête HTTP :
+![Serveurs](./Images/web-requete-serveur.png)<br>
+Nous avons ici plusieurs informations :
+- GET est la méthode employée (voir ci-dessous)
+- /mondossier/monFichier.html correspond l'URL de la ressource demandée
+- HTTP/1.1 : la version du protocole est la 1.1
+- Mozilla/5.0 : le navigateur web employé est Firefox de la société Mozilla
+- text/html : le client s'attend à recevoir du HTML
+
+
+Revenons sur la méthode employée :
+
+Une requête HTTP utilise une méthode (c'est une commande qui demande au serveur d'effectuer une certaine action). Voici la liste des méthodes disponibles :
+
+GET, HEAD, POST, OPTIONS, CONNECT, TRACE, PUT, PATCH, DELETE
+
+Détaillons 4 de ces méthodes :
+
+- GET : C'est la méthode la plus courante pour demander une ressource. Elle est sans effet sur la ressource.
+- POST : Cette méthode est utilisée pour soumettre des données en vue d'un traitement (côté serveur). 
+- DELETE : Cette méthode permet de supprimer une ressource sur le serveur.
+- PUT : Cette méthode permet de modifier une ressource sur le serveur
+
+
+Réponse du serveur à une requête HTTP
+![Serveurs](./Images/web-reponse-requete.png)<br>
+
+Une fois la requête reçue, le serveur va renvoyer une réponse, voici un exemple de réponse du serveur :
+
+Voici quelques explications sur les éléments de cette réponse :
+
+Commençons par la fin : le serveur renvoie du code HTML, une fois ce code reçu par le client, il est interprété par le navigateur qui affiche le résultat à l'écran. Cette partie correspond au corps de la réponse.
+
+La 1ère ligne se nomme la ligne de statut :
+HTTP/1.1 : version de HTTP utilisé par le serveur
+200 : code indiquant que le document recherché par le client a bien été trouvé par le serveur. Il existe d'autres codes dont un que vous connaissez peut-être déjà : le code 404 (qui signifie «Le document recherché n'a pu être trouvé»).
+
+Les 5 lignes suivantes constituent l'en-tête de la réponse :
+une ligne nous intéresse plus particulièrement :
+
+Server: Apache/2.0.54 (Debian GNU/Linux) DAV/2 SVN/1.1.4
+
+Le serveur web qui a fourni la réponse http ci-dessus a comme système d'exploitation une distribution GNU/Linux nommée "Debian" (pour en savoir plus sur GNU/Linux, n'hésitez pas à faire vos propres recherches).
+
+"Apache" est le coeur du serveur web puisque c'est ce logiciel qui va gérer les requêtes http (recevoir les requêtes http en provenance des clients et renvoyer les réponses http). Il existe d'autres logiciels capables de gérer les requêtes HTTP (nginx, lighttpd...) mais, aux dernières nouvelles, Apache est toujours le plus populaire puisqu'il est installé sur environ la moitié des serveurs web mondiaux ! 
+
+Le "HTTPS" est la version "sécurisée" du protocole HTTP. Par "sécurisé" en entend que les données sont chiffrées avant d'être transmises sur le réseau. Seul le possesseur de la clé de déchiffrement sera en mesure de lire les données transmises sur le réseau. Il faut toujours vérifier que le protocole est bien utilisé (l'adresse commence par "https") avant de transmettre des données sensibles (coordonnées bancaires...). Si ce n'est pas le cas, passez votre chemin, car toute personne qui interceptera les paquets de données sera en mesure de lire vos données sensibles. 
+
+
+
+QUESTIONS :
+Voici le code affiché dans une console lors d' une requête HTTP :
+![Serveurs](./Images/web-http-questions.png)
+1. Quelle est l'adresse (URL) du site visité? .
+2. Quel est le système d'exploitation de l'ordinateur personnel qui émet la requête?
+3. Quel est le nom du navigateur utilisé et sa version? 
+
 
 ### Les arnaques sur Internet
 
