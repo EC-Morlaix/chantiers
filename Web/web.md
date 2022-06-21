@@ -108,6 +108,7 @@ Détaillons 4 de ces méthodes :
 
 
 Réponse du serveur à une requête HTTP
+
 ![Serveurs](./Images/web-reponse-requete.png)<br>
 
 Une fois la requête reçue, le serveur va renvoyer une réponse, voici un exemple de réponse du serveur :
@@ -135,7 +136,9 @@ Le "HTTPS" est la version "sécurisée" du protocole HTTP. Par "sécurisé" en e
 
 QUESTIONS :
 Voici le code affiché dans une console lors d' une requête HTTP :
+
 ![Serveurs](./Images/web-http-questions.png)
+
 1. Quelle est l'adresse (URL) du site visité? .
 2. Quel est le système d'exploitation de l'ordinateur personnel qui émet la requête?
 3. Quel est le nom du navigateur utilisé et sa version? 
