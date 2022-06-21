@@ -142,8 +142,9 @@ Voici le code affiché dans une console lors d' une requête HTTP :
 ![http](./Images/web-http-questions.gif)
 
 1. Quelle est l'adresse (URL) du site visité? .
-2. Quel est le système d'exploitation de l'ordinateur personnel qui émet la requête?
-3. Quel est le nom du navigateur utilisé et sa version? 
+2. Quel est le type de fichier attendu ? 
+3. Quel est le système d'exploitation de l'ordinateur personnel qui émet la requête?
+4. Quel est le nom du navigateur utilisé et sa version? 
 
 
 ### Les arnaques sur Internet
