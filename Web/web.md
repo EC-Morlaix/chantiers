@@ -7,12 +7,28 @@ https://youtu.be/GqD6AiaRo3U
 
 ## Le langage Web : Le HTML
 
-1. Donner la signification de HTML
-2. Quel est l'histoire de ce langage ? A quoi servait-il ? 
-3. Suivre les leçons de la Khan Academy : https://fr.khanacademy.org/computing/computer-programming/html-css
+1. Donner la signification de HTML ?
+2. Quel est l'histoire de ce langage ?
+3. A quoi sert-il ? 
+4. Suivre les leçons de la Khan Academy : [KhanAcademy, introduction à HTML/CSS](https://fr.khanacademy.org/computing/computer-programming/html-css){target=_blank} et en parallèle copier/coller vos codes dans des cellules MarkDown d'un Notebook Jupyter avec l'application Carnets afin d'y conserver une trace de votre travail...
 
+> - Pensez à enrichir vos codes avec vos explications personnelles.
+> - Transmettre votre notebook bilan personnel par mail.
 
-## Thèmes à aborder 
+## Publier un site Web :
+
+- Création d'un projet par blocs :
+    - https://app.edublocks.org/guides
+    - https://www.youtube-nocookie.com/embed/fScG_ElLenU
+- Publication en ligne avec GitHub et GitPod...
+
+## Sujets à aborder en projet Web
+
+Par équipe vous allez publier une page web contenant au moins un titre et deux sous-titres, trois paragraphes, une images, un lien hypertexte afin de présenter l'un des sujets suivants :
+
+### Le HTML
+
+### Le CSS
 
 ### Les URL
 L'URL ( Uniform Ressource Locator ) indique « l'endroit » où se trouve une ressource sur un ordinateur.<br>
@@ -52,12 +68,18 @@ Afin assurer une continuité de service, dans les sociétés, plusieurs serveurs
 
 ![Serveurs](./Images/baie-serveur.jpg)<br>
 
-### Web Statique / web dynamique
+### Web Statique :
 
 1. Donner un exemple de page web statique
-2. Donne un exemple de page web dynamique
+2. Quelle est l'utilité d'un web statique par rapport au dynamique ?
+3. Quel langages permettent de rendre une page web statique interactive ?
+
+
+### Web dynamique :
+
+1. Donne un exemple de page web dynamique
 3. Quelle est l'utilité d'un web dynamique par rapport au statique ?
-4. Quel langage permet de rendre la page web dynamique ? 
+4. Quel langages permettent de rendre la page web dynamique ? 
 
 ### RGPD
 
@@ -175,7 +197,25 @@ Plus formellement, le déplacement de l'utilisateur est une marche aléatoire su
 3. Vous êtes l'auteur de la page H et vous souhaitez augmenter votre PageRank. Par quels moyens artificiels pouvez-vous augmenter ce score ? (vous aurez le droit d'ajouter des liens ou de créer de nouvelles pages).
 
 
+### Le MarkDown
 
+### Le LaTeX
+
+## Restitution des projets Web
+
+Maintenant que vous êtes devenus expert de votre sujet, il s'agit de l'expliquer à vos pairs en vous appuyant sur la présentation de votre site... 
+
+
+## Les questions bilan du thème
+
+A l'issue de toutes ces présentations portant sur le thème du Web, vous devriez êtres maintenant capable de répondre aux questions suivantes lors d'une évaluation prochaine...
+
+<!-- lister les questions qui pourrraient être posées en évaluation -->
+
+=== "Question :"
+    Quel est la signification de l'acronyme HTML ?
+=== "Réponse :"
+    [HyperText Markup Language]()
 
 
 
