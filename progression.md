@@ -1,6 +1,6 @@
-# Progression envisageable :
+## Progression envisageable :
 
-## Introduction (en attendant la tablette ?)
+### Introduction (en attendant la tablette ?)
 
 - une petite histoire de l'informatique :
 
@@ -11,7 +11,7 @@
     - Relever des mots clés (et rechercher leur définition en petits groupes ?) pour restitution globale ;
 
 
-## Le Web :
+### Le Web :
 
 - [KhanAcademy, introduction à HTML/CSS](https://fr.khanacademy.org/computing/computer-programming/html-css) ;
     - Publication locale avec Carnets  => Transmmisson d'un notebook bilan DM ?
@@ -34,7 +34,7 @@
     - Le web Statique / Dynamique
     - Moteur de recherche - Le PageRank de Google (pré-requis : avoir programmer un peu de python)
 
-## Programmation en Python : les bases => à faire en transversale + sur les trois temps d'AP laissés libre ?
+### Programmation en Python : les bases => à faire en transversale + sur les trois temps d'AP laissés libre ?
 - Pour évoluer de blocs vers du script https://app.edublocks.org/guides;
 - Faire [Pyrates](https://py-rates.fr/) ;     
 - Faire une version simplifiée de [Découverte de Python pour l'algorithmique en SNT](https://ens-fr.gitlab.io/algo0/) ;
@@ -42,10 +42,10 @@
 - Ou s'appuyer sur [FranceIOI-Cours et Problèmes](http://www.france-ioi.org/algo/chapters.php) ;    
 - Il y a aussi [futurecoder](https://futurecoder.io/) ou [version française avec moins de tracking](https://futurecoder-fr.web.app/course/#IntroducingTheShell) 
  
-## Réseaux sociaux ?
-## Internet ?
-## Données structurées ?
-## Photo numérique ?
-## Localisation /cartographie ?
+### Réseaux sociaux ?
+### Internet ?
+### Données structurées ?
+### Photo numérique ?
+### Localisation /cartographie ?
 
-## Les Objets connectés => à faire en SI-CIT
+### Les Objets connectés => à faire en SI-CIT
