@@ -1,6 +1,4 @@
-# Mon classeur de SI sur GitHub
-
-Gérer un dépôt GitHub pour 
+Apprendre à gérer un dépôt GitHub pour, par exemple, publier un site Web. 
 
 ## Créer un dépot GitHub
 Créer un compte sur GitHub (Sign up) depuis un navigateur à l'adresse [https://github.com/](https://github.com/){target="_blank"} :
@@ -15,7 +13,7 @@ Ou identifier vous (Sign in) si vous avez déjà un compte :
     <img src="https://ericecmorlaix.github.io/img/GitHub00b.png" width=50% alt="identification GitHub">
 </figure>
 
-A l'adresse [https://github.com/new](https://github.com/new){target="_blank"} créer un nouveau répertoire de dépot nommé, par exemple `mon_classeur` :
+A l'adresse [https://github.com/new](https://github.com/new){target="_blank"} créer un nouveau répertoire de dépot nommé, par exemple `mon_site_SNT` :
 
 <figure>
     <img src="https://ericecmorlaix.github.io/img/GitHub01c.png" alt="nouveau repository GitHub">

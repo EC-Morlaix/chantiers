@@ -1,8 +1,8 @@
 # Thème 1 : Le web 
 
-## La Hotline  
+## La Hotline
 
-https://youtu.be/GqD6AiaRo3U
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GqD6AiaRo3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Le langage Web : Le HTML
@@ -18,9 +18,11 @@ https://youtu.be/GqD6AiaRo3U
 ## Publier un site Web :
 
 - Création d'un projet par blocs :
-    - https://app.edublocks.org/guides
-    - https://www.youtube-nocookie.com/embed/fScG_ElLenU
-- Publication en ligne avec GitHub et GitPod...
+    - [https://app.edublocks.org/guides](https://app.edublocks.org/guides)
+
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fScG_ElLenU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- Publication en ligne [sur **GitHub**, avec **Visual Studio Code** via **GitPod**](../Tutos/github)...
 
 ## Sujets à aborder en projet Web
 
@@ -52,7 +54,7 @@ ou schématiser :
 
 Une petite vidéo :
 
-https://dai.ly/x16lt53
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"> <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x16lt53" width="100%" height="100%" allowfullscreen > </iframe> </div>
 
 
 ### Les clients / serveurs 
@@ -68,14 +70,14 @@ Afin assurer une continuité de service, dans les sociétés, plusieurs serveurs
 
 ![Serveurs](./Images/baie-serveur.jpg)<br>
 
-### Web Statique :
+### Web Statique
 
 1. Donner un exemple de page web statique
 2. Quelle est l'utilité d'un web statique par rapport au dynamique ?
 3. Quel langages permettent de rendre une page web statique interactive ?
 
 
-### Web dynamique :
+### Web dynamique
 
 1. Donne un exemple de page web dynamique
 3. Quelle est l'utilité d'un web dynamique par rapport au statique ?

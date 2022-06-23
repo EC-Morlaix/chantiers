@@ -1,10 +1,10 @@
 
 L. PATERNAULT
 
-https://snt.ababsurdo.fr/prof/
+[https://snt.ababsurdo.fr/prof/](https://snt.ababsurdo.fr/prof/)
 
 D. NUNEZ 
-http://sme.lycee.ecmorlaix.fr/DNG/2021/2GT/SNT.html
+[http://sme.lycee.ecmorlaix.fr/DNG/2021/2GT/SNT.html](http://sme.lycee.ecmorlaix.fr/DNG/2021/2GT/SNT.html)
 
 Par Gilles LASSUS :
 
@@ -22,7 +22,7 @@ Par [Benjamin ABEL](https://framagit.org/benabel) :  indisponible [www.lyceum.fr
 
 
 
-https://capes-nsi.org/environnement/
+[https://capes-nsi.org/environnement/](https://capes-nsi.org/environnement/)
 
 
 Johan Ségura du lycée St Exupéry de Marseille : [http://mathsoup.xyz/](http://mathsoup.xyz/)  
