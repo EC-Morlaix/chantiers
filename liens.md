@@ -30,7 +30,12 @@
 
 - La [Nuit du code](https://www.nuitducode.net/) utilise le module Python [Pyxel](https://github.com/kitao/pyxel)
     - [documentation]https://nuitducode.github.io/DOCUMENTATION/PYTHON/01-presentation/ ;
-    - [dépôts GitHub](https://github.com/nuitducode). 
+    - [dépôts GitHub](https://github.com/nuitducode).
+
+- PyGame :
+    - https://www.editions-ellipses.fr/accueil/10739-21215-apprendre-la-programmation-par-le-jeu-decouvrir-pygame-avec-de-nouveaux-jeux-en-python-9782340042100.html#description-scroll-tricks
+    - https://github.com/formazione
+ 
 
 
 ### Sites de collègues en NSI
