@@ -48,7 +48,6 @@
     - [https://e-nsi.gitlab.io/ecrit/](https://e-nsi.gitlab.io/ecrit/)
 
 
-
 ### En vrac (A trier)
 
 [https://www.edupyter.net/](https://www.edupyter.net/)
