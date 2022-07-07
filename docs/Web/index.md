@@ -1,16 +1,24 @@
 # Thème 1 : Le web 
 
-## La Hotline
+## Vidéos
+
+1. En équipe, regarder chacun une des vidéos suivantes et relever les mots clefs et acronymes associés au thème du web.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GqD6AiaRo3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RHljpE7pZh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Le langage Web : Le HTML
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bD6oideRbg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-1. Donner la signification de HTML ?
-2. Quel est l'histoire de ce langage ?
-3. A quoi sert-il ? 
-4. Suivre les leçons de la Khan Academy : [KhanAcademy, introduction à HTML/CSS](https://fr.khanacademy.org/computing/computer-programming/html-css){target=_blank} et en parallèle copier/coller vos codes dans des cellules MarkDown d'un Notebook Jupyter avec l'application Carnets afin d'y conserver une trace de votre travail...
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/68TNDVJKjp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+2. Comparer vos rélevés avec ceux des autres membres de l'équipe et compléter votre liste.
+
+3. Comparer vos rélevés avec ceux des autres équipes et compléter votre liste.
+
+## Introduction aux langages du Web : HTML/CSS
+
+Suivre les leçons de la Khan Academy : [KhanAcademy, introduction à HTML/CSS](https://fr.khanacademy.org/computing/computer-programming/html-css){target=_blank} et en parallèle copier/coller vos codes dans des cellules MarkDown d'un Notebook Jupyter avec l'application Carnets afin d'y conserver une trace de votre travail...
 
 > - Pensez à enrichir vos codes avec vos explications personnelles.
 > - Transmettre votre notebook bilan personnel par mail.
@@ -26,11 +34,30 @@
 
 ## Sujets à aborder en projet Web
 
-Par équipe vous allez publier une page web contenant au moins un titre et deux sous-titres, trois paragraphes, une images, un lien hypertexte afin de présenter l'un des sujets suivants :
+Par équipe vous allez publier une page web contenant au moins un titre et deux sous-titres, trois paragraphes, une images, un lien hypertexte afin de présenter l'un des sujets suivants en répondant à minima aux questions associées :
 
 ### Le HTML
 
+- Donner la signification de HTML ?
+- Quel est l'histoire de ce langage ?
+- Est-ce un langage de programmation ou de description ?
+- A quoi sert-il ?
+- Quels sont les marqueurs de ce langage ?
+- Lister les principales balises, à quoi servent-elles ?
+- Aujourd'hui, l'usage de quelle version de HTML est recommandée par le W3C ?
+- ...
+
+
 ### Le CSS
+
+- Donner la signification de CSS ?
+- Quel est l'histoire de ce langage ?
+- Est-ce un langage de programmation ou de description ?
+- A quoi sert-il ?
+- Quels sont les selecteurs de ce langage ?
+- Quelle est la structure de son code ?
+- Aujourd'hui, l'usage de quelle version de CSS est recommandée par le W3C ?
+- ...
 
 ### Les URL
 L'URL ( Uniform Ressource Locator ) indique « l'endroit » où se trouve une ressource sur un ordinateur.<br>
