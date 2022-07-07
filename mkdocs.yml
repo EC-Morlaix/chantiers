@@ -1,12 +1,12 @@
 # Fichier de configuration du site à personnaliser
 ### Configuration minimale
 site_name: Chantiers SNT # Nom du site <70 caractères, apparait dans l'onglet du navigateur 
-site_url: https://EC-Morlaix.github.io/chantiers/ # Adresse web principale de publication du site, à modifier au format https://votrePseudoGitHub.github.io/votreDepot/
+site_url: https://EC-Morlaix.github.io/chantiers_SNT/ # Adresse web principale de publication du site, à modifier au format https://votrePseudoGitHub.github.io/votreDepot/
 
 ### Configuration du dépôt
 # Ajoute en haut à droite de chaque page du site, icône, nom et lien vers le dépot GitHub du projet.
-repo_url: https://github.com/EC-Morlaix/chantiers
-repo_name: 'chantiers' # Personnalise le nom générique "GitHub" donné par défaut au lien vers le dépot GitHub du projet.
+repo_url: https://github.com/EC-Morlaix/chantiers_SNT
+repo_name: 'chantiers_SNT' # Personnalise le nom générique "GitHub" donné par défaut au lien vers le dépot GitHub du projet.
 edit_uri: edit/main/docs/ # Complément au chemin pour aller depuis `repo_url:` jusqu'au répertoire `docs` ;
 # Ce qui permet avec MkDocs-Material d'ajouter un bouton (crayon) d'édition du code source.md d'une page du site depuis le navigateur
 # (edit => édition avec connexion | blob, tree => lecture anonyme)
@@ -119,7 +119,7 @@ extra:
       link: mailto:eric.madec@ecmorlaix.fr
       name: Pour toute question, suggestion ou commentaire, écrire à l'auteur
     - icon: fontawesome/brands/github
-      link: https://github.com/EC-Morlaix/chantiers
+      link: https://github.com/EC-Morlaix/chantiers_SNT
       name: dépôt github
     - icon: fontawesome/solid/school
       link: https://www.ecmorlaix.fr/nos-etablissements/lycee-notre-dame-du-mur/
