@@ -21,7 +21,13 @@
 
     - [2snt](https://eskool.gitlab.io/2snt/)
 
+- Par Morine PINOT, lycée Notre Dame 72
 
+    - [https://snt-nsi.fr/snt](https://snt-nsi.fr/snt) 
+
+- Par M.BERNON
+
+    - [SNT](https://www.bernon.fr/index.php?page=snt)
 
 - Par [Benjamin ABEL](https://framagit.org/benabel) :  indisponible ~~[www.lyceum.fr](https://www.lyceum.fr/2gt/snt/)~~
 
