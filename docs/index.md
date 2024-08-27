@@ -1,5 +1,5 @@
 
-Chantiers de construction d'un site collaboratif en SNT au lycée Notre Dame du Mur...
+Chantiers  de construction d'un site collaboratif en SNT au lycée Notre Dame du Mur...
 
 ![Citation Alan KAY](https://codewith.mu/img/en/kay_quote.jpg){.center}
 
