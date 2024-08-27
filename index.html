@@ -1,0 +1,984 @@
+<!-- Ajout pour le bouton de téléchargement et le style des jupyter notebook   https://github.com/danielfrg/mkdocs-jupyter -->
+
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Chantiers de construction d'un site collaboratif en SNT au lycée Notre Dame du Mur">
+      
+      
+        <meta name="author" content="Delphine NUNEZ, Eric MADEC">
+      
+      
+        <link rel="canonical" href="https://EC-Morlaix.github.io/chantiers_SNT/">
+      
+      
+      
+        <link rel="next" href="Web/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.33">
+    
+    
+      
+        <title>Chantiers SNT</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="lime" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#progression-envisageable" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="." title="Chantiers SNT" class="md-header__button md-logo" aria-label="Chantiers SNT" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3l89.3 89.4-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Chantiers SNT
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Accueil
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="lime" data-md-color-accent="cyan"  aria-label="Basculer en mode sombre"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Basculer en mode sombre" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="cyan" data-md-color-accent="lime"  aria-label="Basculer en mode clair"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Basculer en mode clair" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/EC-Morlaix/chantiers_SNT" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    chantiers_SNT
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+    
+  
+  Accueil
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Web/" class="md-tabs__link">
+        
+  
+    
+  
+  Le Web
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Chantiers SNT" class="md-nav__button md-logo" aria-label="Chantiers SNT" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3l89.3 89.4-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+
+    </a>
+    Chantiers SNT
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/EC-Morlaix/chantiers_SNT" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    chantiers_SNT
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Accueil
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Accueil
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#progression-envisageable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Progression envisageable :
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Progression envisageable :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-en-attendant-la-tablette" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction (en attendant la tablette ?)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le Web :
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#programmation-en-python-les-bases-a-faire-en-transversale-sur-les-trois-temps-dap-laisses-libre" class="md-nav__link">
+    <span class="md-ellipsis">
+      Programmation en Python : les bases =&gt; à faire en transversale + sur les trois temps d'AP laissés libre ?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reseaux-sociaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Réseaux sociaux ?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#internet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Internet ?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#donnees-structurees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Données structurées ?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#photo-numerique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Photo numérique ?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#localisation-cartographie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Localisation /cartographie ?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-objets-connectes-a-faire-en-si-cit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Objets connectés =&gt; à faire en SI-CIT
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#liens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Liens
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Liens">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sites-de-collegues-en-snt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sites de collègues en SNT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autres-ressources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autres ressources
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sites-de-collegues-en-nsi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sites de collègues en NSI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#en-vrac-a-trier" class="md-nav__link">
+    <span class="md-ellipsis">
+      En vrac (A trier)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommandations-2022-du-conseil-superieur-des-programmes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommandations 2022 du Conseil Supérieur des Programmes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recommandations 2022 du Conseil Supérieur des Programmes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lenseignement-sciences-numeriques-et-technologie-de-seconde-snt" class="md-nav__link">
+    <span class="md-ellipsis">
+      L’enseignement Sciences numériques et technologie de seconde (SNT)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recommandation-du-csp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommandation du CSP
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recommandation du CSP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#premiere-branche-de-lalternative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Première branche de l’alternative :
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seconde-branche-de-lalternative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seconde branche de l’alternative :
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Web/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Le Web
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+
+
+
+
+                  
+
+  
+  
+
+
+  <h1>Accueil</h1>
+
+<p>Chantiers  de construction d'un site collaboratif en SNT au lycée Notre Dame du Mur...</p>
+<p><img alt="Citation Alan KAY" class="center" src="https://codewith.mu/img/en/kay_quote.jpg" /></p>
+<h2 id="progression-envisageable">Progression envisageable :<a class="headerlink" href="#progression-envisageable" title="Permanent link">&num;</a></h2>
+<h3 id="introduction-en-attendant-la-tablette">Introduction (en attendant la tablette ?)<a class="headerlink" href="#introduction-en-attendant-la-tablette" title="Permanent link">&num;</a></h3>
+<ul>
+<li>
+<p>une petite histoire de l'informatique :</p>
+<ul>
+<li><a href="https://youtu.be/16udHcMYRFA">vidéo complète</a></li>
+<li><a href="https://www.inria.fr/fr/elements-dhistoire-de-linformatique">https://www.inria.fr/fr/elements-dhistoire-de-linformatique</a></li>
+<li>
+<p><a href="https://www.youtube.com/playlist?list=PLWvGMqXvyJAMj8f57Hnk3U7oZP8Gi7OyR">La playlist comprenant 5 vidéos</a></p>
+</li>
+<li>
+<p>Relever des mots clés (et rechercher leur définition en petits groupes ?) pour restitution globale ;</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="le-web">Le Web :<a class="headerlink" href="#le-web" title="Permanent link">&num;</a></h3>
+<ul>
+<li><a href="https://fr.khanacademy.org/computing/computer-programming/html-css">KhanAcademy, introduction à HTML/CSS</a> ;<ul>
+<li>Publication locale avec Carnets  =&gt; Transmmisson d'un notebook bilan DM ?</li>
+</ul>
+</li>
+<li>Création d'un projet par blocs :<ul>
+<li><a href="https://app.edublocks.org/guides">https://app.edublocks.org/guides</a></li>
+<li><a href="https://www.youtube-nocookie.com/embed/fScG_ElLenU">https://www.youtube-nocookie.com/embed/fScG_ElLenU</a></li>
+<li>restitution par équipes avec répartition en amont des items à présenter par chacun ;</li>
+</ul>
+</li>
+<li>Publication en ligne avec GitHub et GitPod ? Glitch ? Autres ? ;</li>
+<li>
+<p>Découverte du Markdown et plus si affinités (LaTex, emoji, Graphviz, )...</p>
+</li>
+<li>
+<p>Notions à étudier (dans le désorde..): </p>
+<ul>
+<li>URL (pour les pages web ; URL relatif, URL absolu)</li>
+<li>Hameçonnage</li>
+<li>Les cookies </li>
+<li>La RGPD</li>
+<li>Les clients / Serveurs</li>
+<li>Le protocole HTTP</li>
+<li>Le web Statique / Dynamique</li>
+<li>Moteur de recherche - Le PageRank de Google (pré-requis : avoir programmer un peu de python)</li>
+</ul>
+</li>
+</ul>
+<h3 id="programmation-en-python-les-bases-a-faire-en-transversale-sur-les-trois-temps-dap-laisses-libre">Programmation en Python : les bases =&gt; à faire en transversale + sur les trois temps d'AP laissés libre ?<a class="headerlink" href="#programmation-en-python-les-bases-a-faire-en-transversale-sur-les-trois-temps-dap-laisses-libre" title="Permanent link">&num;</a></h3>
+<ul>
+<li>Pour évoluer de blocs vers du script <a href="https://app.edublocks.org/guides">https://app.edublocks.org/guides</a>;</li>
+<li>Faire <a href="https://py-rates.fr/">Pyrates</a> ;     </li>
+<li>Faire une version simplifiée de <a href="https://ens-fr.gitlab.io/algo0/">Découverte de Python pour l'algorithmique en SNT</a> ;</li>
+<li>Ou de <a href="https://glassus.github.io/snt/Theme0_Bases_de_Python/environnement/">Theme0_Bases_de_Python</a>;</li>
+<li>Ou s'appuyer sur <a href="http://www.france-ioi.org/algo/chapters.php">FranceIOI-Cours et Problèmes</a> ;    </li>
+<li>Il y a aussi <a href="https://futurecoder.io/">futurecoder</a> ou <a href="https://futurecoder-fr.web.app/course/#IntroducingTheShell">version française avec moins de tracking</a> </li>
+</ul>
+<h3 id="reseaux-sociaux">Réseaux sociaux ?<a class="headerlink" href="#reseaux-sociaux" title="Permanent link">&num;</a></h3>
+<h3 id="internet">Internet ?<a class="headerlink" href="#internet" title="Permanent link">&num;</a></h3>
+<h3 id="donnees-structurees">Données structurées ?<a class="headerlink" href="#donnees-structurees" title="Permanent link">&num;</a></h3>
+<h3 id="photo-numerique">Photo numérique ?<a class="headerlink" href="#photo-numerique" title="Permanent link">&num;</a></h3>
+<h3 id="localisation-cartographie">Localisation /cartographie ?<a class="headerlink" href="#localisation-cartographie" title="Permanent link">&num;</a></h3>
+<h3 id="les-objets-connectes-a-faire-en-si-cit">Les Objets connectés =&gt; à faire en SI-CIT<a class="headerlink" href="#les-objets-connectes-a-faire-en-si-cit" title="Permanent link">&num;</a></h3>
+<h2 id="liens">Liens<a class="headerlink" href="#liens" title="Permanent link">&num;</a></h2>
+<h3 id="sites-de-collegues-en-snt">Sites de collègues en SNT<a class="headerlink" href="#sites-de-collegues-en-snt" title="Permanent link">&num;</a></h3>
+<ul>
+<li>
+<p>Par Louis PATERNAULT :</p>
+<ul>
+<li><a href="https://snt.ababsurdo.fr/prof/">https://snt.ababsurdo.fr/prof/</a></li>
+</ul>
+</li>
+<li>
+<p>Par Delphine NUNEZ :</p>
+<ul>
+<li><a href="http://sme.lycee.ecmorlaix.fr/DNG/2021/2GT/SNT.html">http://sme.lycee.ecmorlaix.fr/DNG/2021/2GT/SNT.html</a></li>
+</ul>
+</li>
+<li>
+<p>Par Gilles LASSUS :</p>
+<ul>
+<li><a href="https://glassus.github.io/snt/">SNT 207 / 215 - Lycée François Mauriac - Bordeaux</a></li>
+</ul>
+</li>
+<li>
+<p>Par Franck CHAMBON :</p>
+<ul>
+<li><a href="https://ens-fr.gitlab.io/algo0/">Découverte de Python pour l'algorithmique en SNT</a></li>
+</ul>
+</li>
+<li>
+<p>Par Rodrigo SCHWENCKE, Mathématiques &amp; Informatique <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#99;&#104;&#119;&#101;&#110;&#99;&#107;&#101;&#64;&#108;&#121;&#99;&#101;&#101;&#112;&#101;&#114;&#105;&#101;&#114;&#46;&#102;&#114;">&#115;&#99;&#104;&#119;&#101;&#110;&#99;&#107;&#101;&#64;&#108;&#121;&#99;&#101;&#101;&#112;&#101;&#114;&#105;&#101;&#114;&#46;&#102;&#114;</a>  :</p>
+<ul>
+<li><a href="https://eskool.gitlab.io/2snt/">2snt</a></li>
+</ul>
+</li>
+<li>
+<p>Par Morine PINOT, lycée Notre Dame 72</p>
+<ul>
+<li><a href="https://snt-nsi.fr/snt">https://snt-nsi.fr/snt</a> </li>
+</ul>
+</li>
+<li>
+<p>Par M.BERNON</p>
+<ul>
+<li><a href="https://www.bernon.fr/index.php?page=snt">SNT</a></li>
+</ul>
+</li>
+<li>
+<p>Par <a href="https://framagit.org/benabel">Benjamin ABEL</a> :  indisponible <del><a href="https://www.lyceum.fr/2gt/snt/">www.lyceum.fr</a></del></p>
+</li>
+</ul>
+<h3 id="autres-ressources">Autres ressources<a class="headerlink" href="#autres-ressources" title="Permanent link">&num;</a></h3>
+<ul>
+<li>
+<p>La <a href="https://www.nuitducode.net/">Nuit du code</a> utilise le module Python <a href="https://github.com/kitao/pyxel">Pyxel</a></p>
+<ul>
+<li>[documentation]https://nuitducode.github.io/DOCUMENTATION/PYTHON/01-presentation/ ;</li>
+<li><a href="https://github.com/nuitducode">dépôts GitHub</a>.</li>
+</ul>
+</li>
+<li>
+<p>PyGame :</p>
+<ul>
+<li>https://www.editions-ellipses.fr/accueil/10739-21215-apprendre-la-programmation-par-le-jeu-decouvrir-pygame-avec-de-nouveaux-jeux-en-python-9782340042100.html#description-scroll-tricks</li>
+<li>https://github.com/formazione</li>
+</ul>
+</li>
+</ul>
+<h3 id="sites-de-collegues-en-nsi">Sites de collègues en NSI<a class="headerlink" href="#sites-de-collegues-en-nsi" title="Permanent link">&num;</a></h3>
+<ul>
+<li>
+<p>Par Rodrigo SCHWENCKE, Mathématiques &amp; Informatique <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#99;&#104;&#119;&#101;&#110;&#99;&#107;&#101;&#64;&#108;&#121;&#99;&#101;&#101;&#112;&#101;&#114;&#105;&#101;&#114;&#46;&#102;&#114;">&#115;&#99;&#104;&#119;&#101;&#110;&#99;&#107;&#101;&#64;&#108;&#121;&#99;&#101;&#101;&#112;&#101;&#114;&#105;&#101;&#114;&#46;&#102;&#114;</a> </p>
+<ul>
+<li><a href="https://eskool.gitlab.io/1nsi/">1ère NSI</a></li>
+<li><a href="https://eskool.gitlab.io/tnsi/">Terminale NSI</a></li>
+</ul>
+</li>
+<li>
+<p>Par Romain Janvier :</p>
+<ul>
+<li><a href="http://nsi.janviercommelemois.fr/">http://nsi.janviercommelemois.fr/</a></li>
+<li><a href="https://nsiterminale.janviercommelemois.fr/">https://nsiterminale.janviercommelemois.fr/</a></li>
+</ul>
+</li>
+<li>
+<p>Par un groupe de collègues ultra motivés :</p>
+<ul>
+<li><a href="https://e-nsi.gitlab.io/pratique/">https://e-nsi.gitlab.io/pratique/</a></li>
+<li><a href="https://e-nsi.gitlab.io/ecrit/">https://e-nsi.gitlab.io/ecrit/</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="en-vrac-a-trier">En vrac (A trier)<a class="headerlink" href="#en-vrac-a-trier" title="Permanent link">&num;</a></h3>
+<p><a href="https://www.edupyter.net/">https://www.edupyter.net/</a></p>
+<p><a href="https://morioh.com/p/50f189960e70">Un cours avec une introduction intéressante à reprendre</a></p>
+<p><a href="https://capes-nsi.org/">https://capes-nsi.org/</a></p>
+<p>Johan Ségura du lycée St Exupéry de Marseille : <a href="http://mathsoup.xyz/">http://mathsoup.xyz/</a><br />
+Ses fiches d'activité ont l'air très bien et assez exigeantes, par exemple celle sur <a href="http://www.mathsoup.xyz/mathsoup.xyz/content/Informatique/Fiche%20d'activit%C3%A9%204%20-%20g%C3%A9n%C3%A9ration-labyrinthe/g%C3%A9n%C3%A9ration-labyrinthes%20-%20%C3%A9l%C3%A8ves.html">la création de labyrinthes parfaits</a></p>
+<h2 id="recommandations-2022-du-conseil-superieur-des-programmes">Recommandations 2022 du Conseil Supérieur des Programmes<a class="headerlink" href="#recommandations-2022-du-conseil-superieur-des-programmes" title="Permanent link">&num;</a></h2>
+<h3 id="lenseignement-sciences-numeriques-et-technologie-de-seconde-snt">L’enseignement Sciences numériques et technologie de seconde (SNT)<a class="headerlink" href="#lenseignement-sciences-numeriques-et-technologie-de-seconde-snt" title="Permanent link">&num;</a></h3>
+<p>Cet enseignement obligatoire, d’une durée hebdomadaire d’une heure et demie, s’adresse à tous les élèves de
+ seconde des formations générales et technologiques en lycée. À la rentrée 2019, il était dispensé à 555 667 élèves
+(source DEPP), pour un total d'environ 28 000 heures d’enseignement. Selon le préambule du programme, cet
+enseignement a pour objectif d’appréhender les grands concepts sur lesquels sont fondées les technologies
+numériques. Il s’agit d’éclairer les élèves sur le fait que, malgré leur très grande variété, toutes les avancées
+technologiques issues du développement de la science informatique reposent sur quatre concepts universels décrits
+ci-dessous :</p>
+<ul>
+<li>les données (data), formes numériques unifiées adaptées aux machines informatiques, qui représentent les
+diverses informations véhiculées dans les sociétés modernes : textes, images, sons, tableaux de mesures,
+comptes bancaires, données de santé, etc. ;</li>
+<li>les algorithmes, règles abstraites définissant les successions d’opérations élémentaires à effectuer sur les
+données pour en obtenir les informations cherchées ;</li>
+<li>les langages, qui permettent de coder les algorithmes en un grand nombre d’ordres simples consécutifs,
+constituant des programmes. Ces programmes sont ensuite exécutés par une machine ;</li>
+<li>les machines et leurs systèmes d’exploitation, qui permettent d’exécuter, de stocker les données et les
+programmes, de gérer les communications entre machines et objets connectés par l’intermédiaire des
+réseaux.</li>
+</ul>
+<p>Ce sont les interactions entre ces concepts qui ont permis le développement de ce que recouvre aujourd’hui le terme « numérique ».</p>
+<p>Il s’agit donc de faire réfléchir les élèves sur l’origine et le fonctionnement des technologies et des outils numériques,
+de comprendre le poids croissant du secteur numérique dans l’économie et la société, et d’être conscients des enjeux qui en découlent.</p>
+<p>Le programme s’articule autour de sept thèmes d’étude : internet ; la toile (web) ; les réseaux sociaux ; les données
+structurées et leur traitement ; localisation, cartographie et mobilité ; informatique embarquée et objets connectés ;
+photographie numérique. Ces thèmes sont abordés par des activités, dont la programmation dans le langage Python,
+langage également utilisé dans les programmes de mathématiques et de physique-chimie de seconde, et qui prend la
+suite du langage Scratch étudié au collège. Parallèlement aux aspects techniques du codage, le programme présente,
+à travers les thématiques proposées, l’histoire et l’épistémologie du numérique. Le programme de SNT ayant été
+rédigé avant la publication du cadre de référence des compétences numériques (CRCN), les capacités dont l’atteinte
+figure explicitement dans ce programme ne font pas référence au cadre national, alors que des points communs
+existent entre ces deux documents. Ainsi, la compétence « Programmer » est présente à la fois dans le domaine
+« Création de contenu numérique » du CRCN et dans le paragraphe « Notions transversales de programmation » du
+programme de l’enseignement SNT. De même, les thèmes « le web », « les réseaux sociaux », « les données
+structurées et leur traitement » du programme de SNT contribuent à développer la « Littéracie de l’information et des
+données », domaine 1 du CRCN, et peuvent être reliés à son domaine 4 « Sécurité ». Enfin, la mise en activité des
+élèves, notamment sous forme collaborative, décrite dans le préambule du programme, contribue au développement
+de la compétence « Collaborer à travers des technologies numériques » du domaine 2 du CRCN.</p>
+<p>Au terme de trois années de mise en place, il ressort, malheureusement, que les objectifs de cet enseignement
+obligatoire n’ont pas été atteints ; le décalage entre les ambitions du programme et la réalité de sa mise en œuvre
+peut être expliqué par plusieurs raisons.</p>
+<p>Tout d’abord, cet enseignement sert très souvent de variable d’ajustement dans les services des enseignants. Ainsi,
+beaucoup d’enseignants non volontaires et non formés, dont parfois des stagiaires ou des contractuels, ont appris peu
+de temps avant la rentrée scolaire qu’ils en avaient la charge. De ce fait, la partie scientifique et technique relative aux
+fondements du numérique et aux activités de programmation est souvent délaissée par les enseignants non aguerris
+à ces pratiques au profit d’une approche purement descriptive des contenus des thèmes, ce qui ne correspond pas à
+l’objectif affiché et ne favorise pas le développement de compétences numériques. En second lieu, faire pratiquer des
+activités de programmation en classe entière, à des élèves dont l’initiation à l’informatique varie fortement d’un
+collège à l’autre, relève de la gageure.</p>
+<p>Enfin, l’intitulé même de l’enseignement prête à confusion. Déjà, le pluriel employé dans « sciences numériques » et
+le singulier dans « technologie » interpelle le Conseil Supérieur des Programmes. Signalons que tous les experts
+auditionnés par le CSP – et, au-delà, tous les spécialistes de ce domaine – ne comprennent pas que le terme
+« informatique » ne figure pas dans l’intitulé de cet enseignement.</p>
+<h3 id="recommandation-du-csp">Recommandation du CSP<a class="headerlink" href="#recommandation-du-csp" title="Permanent link">&num;</a></h3>
+<p>Compte tenu de la réalité des conditions d’enseignement (en termes d’organisation, d’horaire et de ressources
+humaines), le CSP préconise de clarifier la place de la science informatique dans ce programme, sachant qu’une
+alternative est possible.</p>
+<h4 id="premiere-branche-de-lalternative">Première branche de l’alternative :<a class="headerlink" href="#premiere-branche-de-lalternative" title="Permanent link">&num;</a></h4>
+<p>Conserver le programme actuel, avec son double objectif scientifique et culturel, mais en modifier l’intitulé pour qu’y
+figurent à la fois les mots « Informatique » et « Numérique » (par exemple, « Informatique et culture numérique »).
+Réserver alors la possibilité de dispenser cet enseignement à des professeurs ayant des compétences informatiques
+attestées : titulaires du CAPES NSI, de l’agrégation d’informatique, du CAPET SII (option ingénierie informatique), ou
+du diplôme inter-universitaire (DIU) NSI. Il conviendrait alors de renforcer l’articulation entre ce programme et celui
+de la spécialité NSI de première. Prévoir d’assurer une partie de l’horaire dévolu à cet enseignement en effectif réduit
+de manière à faciliter la mise en activité des élèves, notamment lorsqu’elle relève de la programmation.</p>
+<p>Cette première proposition correspond à la logique selon laquelle le codage est l’un des apprentissages fondamentaux
+du XXIe siècle, au même titre que la lecture, l’écriture et le calcul.</p>
+<h4 id="seconde-branche-de-lalternative">Seconde branche de l’alternative :<a class="headerlink" href="#seconde-branche-de-lalternative" title="Permanent link">&num;</a></h4>
+<p>Focaliser l’objectif du programme sur l’acquisition d’une culture numérique et le développement de compétences
+numériques. L’initiation à la programmation figurant déjà aux programmes de mathématiques et de technologie du
+collège avec comme support le logiciel Scratch et étant reprise dans les programmes de mathématiques et de
+physique-chimie de seconde avec le logiciel Python, il est préconisé, dans cette seconde proposition, de supprimer la
+partie « Notions transversales de programmation » du programme de SNT et les activités de codage qui s’y rapportent.</p>
+<p>Ainsi déchargé, le programme accorderait alors une place explicite au développement des compétences du cadre de
+référence des compétences numériques (CRCN), en lien étroit avec la certification PIX de fin de lycée.</p>
+<p>L’intitulé du programme devrait alors être modifié pour ne pas laisser sous-entendre qu’il s’agit de l’enseignement
+d’une ou de plusieurs sciences. A priori, ce nouvel enseignement de culture numérique pourrait demeurer ouvert à
+des professeurs de toutes les disciplines, pourvu qu’ils soient volontaires et aient suivi une formation adaptée. Il serait
+important que le suivi d’une telle formation soit reconnu par l’institution, par exemple sous la forme d’une certification
+à enseigner la culture numérique.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+<style>
+    .jp-RenderedHTMLCommon p {
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+    .jp-RenderedHTMLCommon li {
+        font-size: .8rem;
+        line-height: 1.6;
+    }
+
+    .jp-RenderedHTMLCommon h1 {
+        margin: 0 0 1.25em;
+        color: var(--md-default-fg-color--light);
+        font-weight: 300;
+        font-size: 2em;
+        line-height: 1.3;
+        letter-spacing: -0.01em;
+    }
+
+    .jp-RenderedHTMLCommon h2 {
+        margin: 1.6em 0 .64em;
+        font-weight: 300;
+        font-size: 1.965em;
+        line-height: 1.4;
+        letter-spacing: -0.01em;
+    }
+
+    .jp-RenderedHTMLCommon h3 {
+        margin: 1.6em 0 .8em;
+        font-weight: 400;
+        font-size: 1.57em;
+        line-height: 1.5;
+        letter-spacing: -0.01em;
+    }
+
+    .jp-RenderedHTMLCommon hr {
+        border: none;
+    }
+</style>
+
+
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Document partagé par <a href="https://github.com/ericECmorlaix" target="_blank">Delphine NUNEZ, Eric MADEC</a> &copy; 2022 sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" target="_blank">CC BY-NC-SA 4.0</a> <br> Illustrations par <a href="https://undraw.co/" target="_blank">UnDraw</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="mailto:eric.madec@ecmorlaix.fr" target="_blank" rel="noopener" title="Pour toute question, suggestion ou commentaire, écrire à l&#39;auteur" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.8l167.6-182.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/EC-Morlaix/chantiers_SNT" target="_blank" rel="noopener" title="dépôt github" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.ecmorlaix.fr/nos-etablissements/lycee-notre-dame-du-mur/" target="_blank" rel="noopener" title="Lycée Notre Dame du Mur" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M337.8 5.4c-10.8-7.2-24.8-7.2-35.6 0L166.3 96H48c-26.5 0-48 21.5-48 48v320c0 26.5 21.5 48 48 48h208v-96c0-35.3 28.7-64 64-64s64 28.7 64 64v96h208c26.5 0 48-21.5 48-48V144c0-26.5-21.5-48-48-48H473.7L337.8 5.4zM96 192h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16v-64c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-64zM96 320h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16v-64c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-64zM232 176a88 88 0 1 1 176 0 88 88 0 1 1-176 0zm88-48c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16h-16v-16c0-8.8-7.2-16-16-16z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate", "header.autohide"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.af256bd8.min.js"></script>
+      
+        <script src="javascripts/config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
